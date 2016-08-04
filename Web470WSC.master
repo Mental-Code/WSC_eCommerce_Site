@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Web470WSC.master.cs" Inherits="Web460Store" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Williams Specialty Company</title>
+    <asp:ContentPlaceHolder id="HeadPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1
+        {
+            width: 395px;
+            height: 215px;
+        }
+    </style>
+</head>
+<body style="text-align: center; margin: auto; background-color: lightslategrey;">
+    <form id="form1" runat="server">
+    <table style="border: 2px solid #97694F; margin: auto; text-align: center; ">
+        <tr style="background-color: #33A1C9; text-align: center;">
+            <td colspan="2">
+                <!-- page header -->
+                <h1 style="color: lightgrey;">
+                    <img alt="WSC_Logo" class="auto-style1" src="Images/engraving2.jpg" /></h1>
+                <h1 style="color: lightgrey;">Williams Specialty Company</h1>
+                <!-- page tagline -->
+                <h2 style="color: lightgrey;">
+                    <asp:Label ID="lblTagline" runat="server"></asp:Label>
+                        </h2>
+                <!-- Label for content pages to display user message -->
+                <strong><em><span style="color:ghostwhite;">
+                    <asp:Label ID="lblUserFeedback" runat="server">Here for all of your printing and engraving needs.</asp:Label>
+                        </span></em></strong>
+            </td>
+        </tr>
+        <tr style="background-color: #6996AD; text-align:center; color: black;">
+            <td colspan="2">
+                <!-- page navigation bar -->
+                <strong><asp:LinkButton ID="lbtnLogin" runat="server" ForeColor="LightGray" PostBackUrl="~/pgLogin.aspx">Login</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;
+                        <asp:LinkButton ID="lbtnHomePage" runat="server" ForeColor="LightGray" PostBackUrl="~/pgCatalog.aspx">Home</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;
+                        <asp:LinkButton ID="lbtnAccountDetails" runat="server" ForeColor="LightGray" PostBackUrl="~/pgLogin.aspx">Account Details</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;
+                        <asp:LinkButton ID="lbtnOrderReview" runat="server" ForeColor="LightGray" PostBackUrl="~/pgReview.aspx">Order Review</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;
+                        <asp:LinkButton ID="lbtnCheckout" runat="server" ForeColor="LightGray" PostBackUrl="~/pgCatalog.aspx">Place an Order</asp:LinkButton>
+                </strong>
+            </td>
+</tr>
+        <tr style="background-color: whitesmoke; text-align: center; vertical-align: top; font-weight: bold; color: gray;">
+            <td>
+                <!-- Left content area -->
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+            </td>
+            <td>
+                <!-- Right content area -->
+                <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+            </td>
+</tr>
+        <tr style="background-color: #6996AD; text-align:center;">
+            <td colspan="2">
+                <!-- page footer -->
+                <strong><asp:Label ID="lblFooter" runat="server">Copyright DeVry University Web 460's Team C</asp:Label>
+            </strong>
+                    </td>
+        </tr>
+        <tr style="background-color: #6996AD; text-align:center;">
+            <td colspan="2">
+                <!-- page site map -->
+                    <strong><asp:LinkButton ID="lbtnAboutUs" runat="server" ForeColor="LightGray" PostBackUrl="pgAboutUs.aspx">About Us</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;
+                        <asp:LinkButton ID="lbtnFAQ" runat="server" ForeColor="LightGray" PostBackUrl="pgFAQ.aspx">FAQ</asp:LinkButton>
+            </strong>
+                    </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
