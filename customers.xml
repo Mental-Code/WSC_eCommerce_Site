@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<dsAccounts xmlns="http://tempuri.org/dsAccounts.xsd">
+  <tblCustomers>
+    <CustomerID>1</CustomerID>
+    <FirstName>John</FirstName>
+    <LastName>Smith</LastName>
+    <Email>john@smith.com</Email>
+    <Address1>25 Smith St</Address1>
+    <City>Smithville</City>
+    <Address2 />
+    <State>SD</State>
+    <PhoneNumber>1112223333</PhoneNumber>
+  </tblCustomers>
+  <tblCustomers>
+    <CustomerID>2</CustomerID>
+    <FirstName>Jane</FirstName>
+    <LastName>Doe</LastName>
+    <Email>jane@doe.com</Email>
+    <Address1>5909B Main St</Address1>
+    <City>Forrestville</City>
+    <State>MI</State>
+    <PhoneNumber>5554443333</PhoneNumber>
+  </tblCustomers>
+  <tblCustomers>
+    <CustomerID>3</CustomerID>
+    <FirstName>Harold</FirstName>
+    <LastName>Rice</LastName>
+    <Email>harold@rice.com</Email>
+    <Address1>123 Jackson Blvd</Address1>
+    <City>Johnstown</City>
+    <Address2>Apt B</Address2>
+    <State>PA</State>
+    <PhoneNumber>9998887777</PhoneNumber>
+  </tblCustomers>
+  <tblCustomers>
+    <CustomerID>4</CustomerID>
+    <FirstName>Mary</FirstName>
+    <LastName>Sue</LastName>
+    <Email>mary@sue.com</Email>
+    <Address1>1101 Laurel Hill Ave</Address1>
+    <City>Widgeton</City>
+    <Address2>Suite 204</Address2>
+    <State>VT</State>
+    <PhoneNumber>7776665555</PhoneNumber>
+  </tblCustomers>
+  <tblCustomers>
+    <CustomerID>5</CustomerID>
+    <FirstName>Lannah</FirstName>
+    <LastName>Rice-Ball</LastName>
+    <Address1>123 Jackson Blvd</Address1>
+    <City>Johnstown</City>
+    <Address2>Apt B</Address2>
+    <State>PA</State>
+    <PhoneNumber>9998887777</PhoneNumber>
+  </tblCustomers>
+</dsAccounts>
